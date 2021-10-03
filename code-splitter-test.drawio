@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-03T03:06:27.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="asdzYMU_sPAvUAse7ooZ" version="15.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-03T03:34:28.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="D2A1FFNcpWYUGjksM_f7" version="15.3.0" type="github">
   <diagram id="7vNEU9aveuRfCid7Xwvg" name="Page-1">
-    <mxGraphModel dx="1422" dy="300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1824" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,14 +68,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tFzVOfC4kucT4hQ-CmsI-21" value="Differentiates by header&#xa;    &#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-21" value="Differentiates by Tokens&#xa;    &#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="560" y="200" width="150" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="tFzVOfC4kucT4hQ-CmsI-25" value="Each header is a class" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="730" y="200" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="tFzVOfC4kucT4hQ-CmsI-26" value="&lt;ul&gt;&lt;li&gt;&lt;span&gt;Class #&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Class ##&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Class ###&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="900" y="180" width="100" height="80" as="geometry" />
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-25" value="Each line is a token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="200" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tFzVOfC4kucT4hQ-CmsI-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tFzVOfC4kucT4hQ-CmsI-28" target="tFzVOfC4kucT4hQ-CmsI-30">
           <mxGeometry relative="1" as="geometry" />
@@ -83,12 +80,12 @@
         <mxCell id="tFzVOfC4kucT4hQ-CmsI-28" value="File should have front matter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="520" y="130" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tFzVOfC4kucT4hQ-CmsI-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0.998;exitY=0.343;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tFzVOfC4kucT4hQ-CmsI-28" target="tFzVOfC4kucT4hQ-CmsI-26">
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0.998;exitY=0.343;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.411;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tFzVOfC4kucT4hQ-CmsI-28" target="tFzVOfC4kucT4hQ-CmsI-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="160" as="sourcePoint" />
-            <mxPoint x="560" y="110" as="targetPoint" />
+            <mxPoint x="950" y="180" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="950" y="137" />
+              <mxPoint x="965" y="137" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -100,6 +97,77 @@
         </mxCell>
         <mxCell id="tFzVOfC4kucT4hQ-CmsI-32" value="File not supported ? (Line 55)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="670" y="30" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="222" as="sourcePoint" />
+            <mxPoint x="1105" y="221.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="222" />
+              <mxPoint x="1080" y="222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-38" value="1.Token Type&#xa;2. Token Content&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="920" y="200" width="110" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tFzVOfC4kucT4hQ-CmsI-42" target="tFzVOfC4kucT4hQ-CmsI-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tFzVOfC4kucT4hQ-CmsI-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-42" value="Go to each token" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="203.25" width="110" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tFzVOfC4kucT4hQ-CmsI-43" target="tFzVOfC4kucT4hQ-CmsI-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-43" value="Token_type = Header" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="93.5" width="110" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tFzVOfC4kucT4hQ-CmsI-47" target="tFzVOfC4kucT4hQ-CmsI-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="110" />
+              <mxPoint x="1530" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-47" value="Bring the content" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="93.5" width="110" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-49" value="Stop untill the next Token_type = Header" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tFzVOfC4kucT4hQ-CmsI-52" target="tFzVOfC4kucT4hQ-CmsI-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1115" y="80" />
+              <mxPoint x="1115" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-52" value="Begining of the file If the token_type = text" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-53" value="Ignore" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-58" value="Make a new file" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="90" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tFzVOfC4kucT4hQ-CmsI-60" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.584;entryY=-0.068;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tFzVOfC4kucT4hQ-CmsI-43" target="tFzVOfC4kucT4hQ-CmsI-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="40" as="sourcePoint" />
+            <mxPoint x="1620" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1255" y="40" />
+              <mxPoint x="1644" y="40" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
